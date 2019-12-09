@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Search Term" />
+
+    <EditText
+        android:id="@+id/search_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/repo_stars_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Repositores Sort By Stars"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/repo_commit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Repositories Sort By Date Updated"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/users_followers_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Users Sort By Followers"
+        android:textAllCaps="false" />
+
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

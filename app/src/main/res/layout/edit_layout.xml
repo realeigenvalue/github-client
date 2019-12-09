@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Owner" />
+
+    <EditText
+        android:id="@+id/user_follow_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/follow_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Follow"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/unfollow_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unfollow"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Owner" />
+
+    <EditText
+        android:id="@+id/user_star_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Repository" />
+
+    <EditText
+        android:id="@+id/repo_star_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/star_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Star"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/unstar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unstar"
+        android:textAllCaps="false" />
+</LinearLayout>

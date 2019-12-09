@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/prof_page"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profile page" />
+        <item
+            android:id="@+id/repo_page"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Repositories page" />
+        <item
+            android:id="@+id/following_page"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Following page" />
+        <item
+            android:id="@+id/followers_page"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Followers page" />
+        <item
+            android:id="@+id/starred_page"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Starred" />
+        <item
+            android:id="@+id/edit_page"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Edit" />
+        <item
+            android:id="@+id/notification_page"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/search_page"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/visual_page"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Visualization" />
+    </group>
+
+</menu>
